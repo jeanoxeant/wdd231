@@ -13,9 +13,22 @@
 
     .menu1 {
         text-align: center;
-        padding-left: 25px;
+        /*padding-left: 25px;*/
         border-bottom: 1px solid #bbb;
         padding-bottom: 1rem;
+    }
+
+    .menu1 a{
+        /*text-align: center;*/
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid #bbb;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        font-size: medium;
     }
 
     main {
