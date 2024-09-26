@@ -114,11 +114,11 @@ body {
   
   figure {
     text-align: center;
-    float: center;
+    /*float: center;
     padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-right: 100px;*/
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   
   .menu1 {
