@@ -18,16 +18,14 @@ body {
   
   .topnav {
     background-color: rgb(31, 30, 30);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     text-align: center;
-    display: flex;
+    /*display: flex;*/
     color: white;
     overflow: hidden;
   }
   
   .topnav a {
-    flex: 1 1 100%;
+    /*flex: 1 1 100%;*/
     color: white;
     float: left;
     display: block;
@@ -38,13 +36,8 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.icon {
-    display: none;
-    background: turquoise;
+    background-color: greenyellow;
+    color: white;
   }
   
   header h1 {
@@ -57,6 +50,11 @@ body {
     padding-left: 20px;
   }
   
+  .pictitle #menu{
+    padding-left: 0px;
+    padding-top: 1px;
+    padding-bottom: 75px;
+  }
   .pictitle img{
     box-shadow: 5px 5px black;
   }
@@ -126,9 +124,9 @@ body {
   nav a:hover {
     background-color: darkgreen;
   }
-  
-  .topnav a:hover {
-    background-color: rgb(88, 127, 143);
+
+  .navigation a:hover {
+    background-color: darkgreen;
   }
   
   
@@ -210,3 +208,21 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+
+  /*---------------------------------------------*/
+
+  
+  /* Mobile View ***************/
+  .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
