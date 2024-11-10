@@ -134,11 +134,18 @@ body {
   
   picture {
     text-align: center;
-    float: center;
+    /*float: center;*/
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  picture img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
   
   .menu1 {
