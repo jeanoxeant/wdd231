@@ -108,7 +108,7 @@
     
     .navigation a:hover, .navigation a:active {
         color: white;
-        background-color: black;
+        background-color: darkgreen;
     }
     
     .show li {
