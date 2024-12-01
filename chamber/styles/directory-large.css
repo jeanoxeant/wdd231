@@ -1,0 +1,453 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+    
+  }
+  
+  header {
+    /*margin: 0 auto;*/
+    max-width: 100%;
+    font-weight: 100;
+    /*text-align: center;*/
+    border: 1px solid #bbb;
+    background-color: #002570;
+  }
+  
+  .topnav {
+    background-color: rgb(31, 30, 30);
+    /*text-align: center;*/
+    /*display: flex;*/
+    color: white;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    /*flex: 1 1 100%;*/
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    /*font-size: 17px;*/
+  }
+  
+  .topnav a:hover {
+    background-color: greenyellow;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 1.4em;
+    color: white;
+    /*text-align: center;*/
+    /*background-color: #002570;*/
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+  }
+  
+  .pictitle #menu{
+    padding-left: 0px;
+    padding-top: 1px;
+    padding-bottom: 75px;
+  }
+  .pictitle img{
+    box-shadow: 5px 5px black;
+  }
+  
+  .pictitle{
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
+    border-color: #002570;
+  }
+  
+  .course {
+    grid-column: 1/2;
+  }
+  
+  .city {
+    grid-column: 2/3;
+  }
+  
+  .certificate {
+    grid-column: 1/3;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  h3 {
+    background-color: #002570;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0%;
+    
+  }
+  
+  figure figcaption {
+    text-align: center;
+  }
+  
+  .course p{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  section {
+    /*border: 1px solid #bbb;*/
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+  }
+  
+  nav a:hover {
+    background-color: darkgreen;
+  }
+
+  .navigation a:hover {
+    background-color: darkgreen;
+  }
+  
+  figure {
+    text-align: center;
+    /*float: center;*/
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  figure img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 80%;
+    width: 200px;
+    height: 250px;*/
+    max-width: 200px;
+
+  }
+  
+  .menu1 {
+    text-align: center;
+    padding-left: 50px;
+    /*margin-bottom: 1rem;*/
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 1rem;
+  }
+  
+  .menu1 a{
+    /*text-align: center;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #bbb;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+  }
+  
+  
+  .menu2 {
+    text-align: center;
+    /*padding-left: 50px;
+    padding-top: 50px;*/
+    /*border: 1px solid #bbb;*/
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+  }
+  
+  .menu2 a{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #bbb;
+    background-color: rgb(63, 8, 8);
+    color: white;
+    border-radius: 5px;
+    /*font-size: small;*/
+  }
+  
+  a.mod{
+    background-color: #bbb;
+    color: black;
+  }
+  /*
+  footer {
+    /*margin: 1rem auto 0;*/
+   /* max-width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color:white;
+    border-top: 1px solid #ccc;
+    background-color: #002570;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  */
+
+  /*---------------------------------------------*/
+
+  
+  /* Mobile View ***************/
+  .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+    
+
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+/*----------------------------------------------------*/
+    .sociallinks {
+        position: relative;
+    }
+    
+    .sociallinks img {
+        float: left;
+        width: 30px;
+    }
+    
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+        margin-top: 10px;
+    
+        margin: 1rem auto 0;
+       /* width: 650px; */
+        text-align: center;
+        font-size: 0.8em;
+        color: #777;
+        border-top: 1px solid #ccc;
+    }
+    
+    .cinformation {
+        grid-column: 1/2;
+        /*grid-row: 1/2;*/
+        text-align: left;
+        padding-left: 100px;
+    }
+    
+    .sociallinks {
+        grid-column: 2/3;
+        /*grid-row: 1/2;*/
+        text-align: center;
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+    
+    .pinformation {
+        grid-column: 3/4;
+        /*grid-row: 1/2;*/
+        text-align: left;
+        
+    }
+
+/*----------------------------------------*/
+
+/* Directory Page */
+main {
+    margin: 0 10px;
+}
+
+.Main-title {
+    color: var(--headline-color-on-white);
+    text-align: center;
+    font-size: var(--font-size-large);
+    margin: 20px;
+    padding: 5px 0;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--white);
+    gap: 10px;
+    width: 110px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid var(--king-kong);
+    border-radius: 10px;
+    background-color: var(--white);
+    color: var(--king-kong);
+}
+
+button {
+    border: 1px solid var(--king-kong);
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--white); 
+    color: var(--king-kong); 
+}
+
+button.activebtn {
+    background-color: var(--king-kong); 
+    color: var(--white);
+}
+
+.fa-border-all,
+.fa-list {
+    color: inherit; 
+}
+
+button:hover {
+    background-color: var(--king-kong);
+    color: var(--white);
+}
+
+#directory-box.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+}
+
+.card-box {
+    padding: 20px;
+    border: 2px solid var(--king-kong);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: var(--white);
+    overflow: hidden;
+}
+
+.logo {
+    object-fit: cover;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: var(--paragraph-color-on-color);
+}
+
+.card-box h3, 
+.card-box ul li {
+    color: var(--king-kong);
+    font-size: var(--font-size-base);
+}
+
+.card-box ul {
+    padding: 10px;
+}
+
+td a:link, td a,
+.card-box a:link, .card-box a {
+    text-decoration: none;
+    color: var(--oxford-blue);
+}
+
+td a:visited,
+.card-box a:visited {
+    text-decoration: underline;
+}
+
+td a:hover,
+.card-box a:hover {
+    font-weight: bold;
+    color: var(--yale-blue);
+}
+
+td a:active,
+.card-box a:active {
+    text-decoration: underline;
+}
+
+#directory-box.list-view {
+    display: block;
+}
+
+#directory-box.list-view .card-box {
+    margin: 30px;
+}
+
+@media (min-width: 860px) {
+
+    #directory-box.list-view {
+        display: table;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 0 15px;
+    }
+
+    #directory-box.list-view .card-box {
+        display: table-row;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    #directory-box.list-view .card-box > * {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 15px;
+        background-color: var(--white);
+        border: 2px solid var(--king-kong);
+        border-radius: 10px;
+    }
+
+    #directory-box.list-view .card-box .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    #directory-box.list-view .card-box h3 {
+        font-size: 1.5rem;
+    }
+
+    #directory-box.list-view .card-box ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #directory-box.list-view .card-box ul li {
+        font-size: 1rem;
+    }
+
+    #directory-box.list-view .card-box ul li a {
+        font-size: 1rem;
+        text-decoration: underline;
+        color: var(--oxford-blue);
+    }
+}

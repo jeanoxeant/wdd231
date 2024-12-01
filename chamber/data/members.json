@@ -1,0 +1,57 @@
+[
+    {
+        "Name": "Claro",
+        "Address": "calle 8#15, Buena vista 1ra, Villa Mella",
+        "Website": "https://www.claro.com.do/",
+        "Phone number": "8092563523",
+        "Membership": "Bronze"
+        
+    },
+    {
+        "Name": "PUCMM",
+        "Address": "calle 10#25, Lincoln, Santo Domingo",
+        "Website": "https://pucmm.edu.do/",
+        "Phone number": "8095625986",
+        "Membership": "Bronze"
+        
+    },
+    {
+        "Name": "SSM CONSTRUCTION",
+        "Address": "calle 8#15, Buena vista 1ra, Santo Domingo",
+        "Website": "https://www.ssmconstruction.com./",
+        "Phone number": "8296565322",
+        "Membership": "Gold"
+        
+    },
+    {
+        "Name": "Constructora Violetta",
+        "Address": "calle 7#10, Churchill, Santo Domingo",
+        "Website": "https://www.constructoravioletta.com",
+        "Phone number": "8098956235",
+        "Membership": "Gold"
+        
+    },
+    {
+        "Name": "Plaza del pollo",
+        "Address": "hermana mirabal, villa mella, Santo Domingo",
+        "Website": "https://www.plazadelpollo.com",
+        "Phone number": "8094565231",
+        "Membership": "Silver"
+    },   
+    {
+        "Name": "La Sirena",
+        "Address": "calle 12#6, Churchill, Santo Domingo",
+        "Website": "https://www.sirena.do",
+        "Phone number": "8098523214",
+        "Membership": "Gold"
+        
+    },
+    {
+        "Name": "Super Mercado Ole",
+        "Address": "Av. Hermana Mirabal, Villa Mella, Santo Domingo",
+        "Website": "https://www.hiperole.com.do",
+        "Phone number": "8094522147",
+        "Membership": "Silver"
+
+    }
+]

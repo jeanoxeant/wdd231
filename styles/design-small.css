@@ -94,6 +94,7 @@
     
     .navigation li {
         display: none;
+        
     }
     .navigation a {
         display: block;
@@ -119,3 +120,4 @@
         content: "X";
     }
 }
+

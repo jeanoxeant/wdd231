@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Web Frontend Development I - Jean Rubin Oxeant</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development I - Jean Rubin Oxeant - Home Page">
+    <meta name="author" content="Jean Rubin Oxeant">
+    <link rel="stylesheet" href="styles/directory-large.css" />
+    <link rel="stylesheet" href="styles/directory-small.css" />
+    <script src="scripts/directory.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="/chamber/images/dominican.ico" type="image/png">
+    <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type" content="Business"/>
+    <meta property="og:title" content="Dominican Chamber"/>
+    <meta property="og:description" content="How much does culture influence creative thinking?"/>
+    <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <!--facebook meta-->
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://your-site.com/path-to-image.jpg">
+    <meta property="og:url" content="https://your-site.com/directory.html">
+    <meta property="og:description" content="Discover members of the Chamber of Commerce.">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Santo Domingo, Dominican Republic">
+            <p>Santo Domingo<br>Chamber of Commerce</p>
+        </div>
+        <nav class="topnav">
+            <ul class="navigation">
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#discover.html">Discover</a></li>
+                <li><a href="#directory.html">Directory</a></li>
+                <li><a href="#join.html">Join</a></li>
+            </ul>
+        </nav>
+        <img src="images/business1.jpg" alt="Santo Domingo, Dominican Republic">
+    </header>
+    <main>
+        <h2 class="Main-title">Directory</h2>
+        <div class="button-box">
+            <button title="List view" class='mybtn activebtn' id="list-view-btn"><i class='fas fa-list'></i></button>
+            <button title="Grid view" class='mybtn' id="grid-view-btn"><i class='fas fa-border-all'></i></button>
+        </div>
+
+        <div id="directory-box"></div>
+
+    </main>
+    <footer>
+        <div class="cinformation">
+            <p>Santo Domingo Chamber of Commerce</br>10 Rue De La Paix</br>
+            Timbuktu, Mali 999</br>
+            info@Timbuktucc.org</br>
+            (223) 555-2300</p>
+        </div>
+        <nav class="sociallinks">
+            <a href="https://youtube.com">
+            <img src="images/youtube.svg" alt="Youtube">
+            </a>
+            <a href="https://twitter.com">
+            <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+        <div class="pinformation">
+            <p>WDD231 Class Project</br>
+            Jean Rubin Oxeant</br>
+            ©<span id="currentyear"></span> Santo Domingo Chamber of Commerce</br>
+            Last Modified: <span id="lastModified"></span></p>
+        </div>
+        
+    </footer> 
+</body>
+</html>
